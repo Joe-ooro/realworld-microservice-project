@@ -13,9 +13,12 @@ spec:
     metadata:
       labels:
         app: reddit-clone
-    spec:
+  spec:
       containers:
       - name: reddit-clone
         image: ooro/reddit:latest
         ports:
         - containerPort: 3000
+
+
+    
